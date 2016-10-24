@@ -4,3 +4,5 @@ The application we built is basically naive. We implemented all the requirements
 Therefore, we encountered difficulty to make an interactive application. Then we decided to keep the application simple. This is best for us as beginners.
 
 We hope you can like our simple design although this application took us much time.
+
+![alt tag](https://github.com/deyangyin/naivetmap/blob/master/screenshot.png)
