@@ -5,7 +5,7 @@ from tweepy import Stream
 from elasticsearch import Elasticsearch
 
 # create instance of elasticsearch
-es = Elasticsearch([{'host': 54.163.11.20, 'port': 9200}])
+es = Elasticsearch([{'host': ****, 'port': 9200}])
 
 class TweetStreamListener(StreamListener):
     # on success
@@ -33,11 +33,11 @@ if __name__ == '__main__':
     # create instance of the tweepy tweet stream listener
     listener = TweetStreamListener()
 
-    consumer_key = "sCjnEgnu4yGQ2Upemv4M7Siiv"                                                                                            
-    consumer_secret = "ymUhZwSfTOF8fLuJW8nGxyG71iRSua39Mv30oH9xTYZVPzQqxp"                                                                
+    consumer_key = "****"                                                                                            
+    consumer_secret = "****"                                                                
                                                                                                                                           
-    access_token = "4554433517-t6b77MH6eeRDOt70BG4ep8Dp5FGbFPwFaHKtyyf"                                                                   
-    access_token_secret = "iLVcknCw7BeZtmJjamr7HFsvzoWMMrBECtdQZB0Ja8AsU"                                                                 
+    access_token = "********"                                                                   
+    access_token_secret = "****"                                                                 
                                                                                                                                           
     # set twitter keys/tokens                                                                                                             
     auth = OAuthHandler(consumer_key, consumer_secret)                                                                                    
